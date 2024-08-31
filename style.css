@@ -1,0 +1,443 @@
+/* Navbar */
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Warna hover untuk link navbar */
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #343a40; /* Warna background dropdown */
+}
+
+.navbar-nav .dropdown-item {
+    color: #fff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057; /* Warna hover untuk item dropdown */
+}
+
+/* Header */
+header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Layer gelap di atas background image */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p.lead {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+header .btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+}
+
+header .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+header .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+header .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40;
+}
+
+header .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p.lead {
+        font-size: 1.25rem;
+    }
+
+    header .btn {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+
+/* Pengaturan Bagian Klien */
+.clients img {
+    max-width: 100%;
+}
+
+.hidden-client {
+    display: none;
+}
+
+/* Pengaturan Kartu Umum */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Pengaturan Teks pada Kartu */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Pengaturan Kartu dengan Efek Hover */
+.hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgb(0, 0, 0);
+}
+
+/* Pengaturan Gambar pada Kartu dengan Efek */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Pengaturan Umum Lainnya */
+.bg-light {
+    background-color: #2a2e33 !important;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Pengaturan Gambar di Bagian ERP Ecosystem */
+.erp-ecosystem img {
+    max-width: 100%;
+    height: auto;
+}
+/* tampilan why choose erp */
+.block {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s;
+}
+
+.block:hover {
+    transform: translateY(5px);
+}
+
+.block-left {
+    flex-direction: row-reverse;
+}
+
+.block-right {
+    flex-direction: row;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #292727;
+    margin: 0;
+}
+
+.text-content {
+    text-align: left;
+    flex-grow: 1;
+}
+
+/* tampilan what can you request */
+.title {
+    font-size: 1.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 1rem; /* Jarak bawah judul */
+}
+
+.text-above {
+    font-size: 1rem; /* Ukuran font untuk teks di atas gambar */
+    font-weight: 600; /* Semi-bold untuk teks di atas */
+    margin-bottom: 0.5rem; /* Jarak bawah teks atas */
+    color: rgb(30, 39, 39);
+}
+
+.text-below {
+    font-size: 0.85rem; /* Ukuran font untuk teks di bawah gambar */
+    font-weight: 600;
+    margin-top: 0.5rem; /* Jarak atas teks bawah */
+    color: rgb(30, 39, 39);
+}
+
+.rounded-circle {
+    width: 150px; /* Lebar gambar bulat */
+    height: 150px; /* Tinggi gambar bulat */
+    object-fit: cover; /* Menjaga gambar tetap proporsional */
+}
+
+/* Tampilan How Journey To Work With Us? */
+.title {
+    font-size: 1.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 1rem; /* Jarak bawah judul */
+    font-weight: 600; /* Semi-bold untuk judul */
+}
+
+.card-img-top {
+    width: 100%; /* Lebar gambar mengikuti lebar card */
+    height: 150px; /* Tinggi gambar */
+    object-fit: cover; /* Menjaga gambar tetap proporsional */
+    margin-bottom: 0.5rem; /* Jarak bawah gambar */
+}
+
+.img-square {
+    border-radius: 0; /* Menghapus border-radius untuk gambar persegi */
+}
+
+.card-body {
+    padding: 1rem; /* Padding untuk card-body */
+}
+
+.text-above {
+    font-size: 1rem; /* Ukuran font untuk teks di atas gambar */
+    font-weight: 600; /* Semi-bold untuk teks di atas */
+    margin-bottom: 0.5rem; /* Jarak bawah teks atas */
+}
+
+.text-below {
+    font-size: 0.85rem; /* Ukuran font untuk teks di bawah gambar */
+    margin-top: 0.5rem; /* Jarak atas teks bawah */
+}
+
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    transition: box-shadow 0.3s ease-in-out; /* Transisi halus saat hover */
+}
+
+.shadow-effect:hover {
+    box-shadow: 0 8px 16px rgb(0, 0, 0); /* Bayangan lebih dalam saat hover */
+}
+
+/* tampilan untuk clien say erp dan youtube */
+.title {
+    font-size: 1.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 10rem; /* Jarak bawah judul */
+    font-weight: 600; /* Semi-bold untuk judul */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    font-size: 1rem; /* Ukuran font untuk teks di atas gambar */
+    font-weight: 600; /* Semi-bold untuk teks di atas gambar */
+    margin-bottom: 1rem; /* Jarak bawah teks atas */
+    color: #2a2e33;
+}
+
+.img-square {
+    width: 100%; /* Lebar gambar mengikuti lebar container */
+    height: auto; /* Tinggi gambar otomatis untuk mempertahankan proporsi */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon {
+    font-size: 3rem;
+    color: white;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+/* tampilan untuk beberapa artikel */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Title Styling */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Custom Card Styling */
+.custom-card {
+    width: 30%;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image Styling */
+.custom-card .card-img-top {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Card Body Styling */
+.custom-card .card-body {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Card Title Styling */
+.custom-card .card-title {
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: #007bff;
+}
+
+/* Card Text Styling */
+.custom-card .card-text {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Button Styling */
+.custom-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.custom-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .custom-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-image: url('Assets/premium_vector_hand_drawn_landscape_black_and_white.jpeg'); /* Ganti dengan URL gambar latar belakang */
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh elemen */
+    background-position: center; /* Memusatkan gambar latar belakang */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar latar belakang */
+    color: #fff; /* Warna teks footer untuk kontras dengan gambar latar belakang */
+    border-top: 1px solid #dee2e6; /* Garis atas footer */
+}
+
+.footer h5 {
+    font-size: 1.25rem; /* Ukuran font untuk subjudul footer */
+    font-weight: 600; /* Semi-bold untuk subjudul footer */
+    margin-bottom: 1rem; /* Jarak bawah subjudul footer */
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem; /* Jarak bawah item list */
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ffc107; /* Warna tautan */
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; /* Garis bawah saat hover pada tautan */
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #fff; /* Warna ikon sosial media */
+}
+
+.social-icon:hover {
+    color: #ffc107; /* Warna ikon sosial media saat hover */
+}
+
