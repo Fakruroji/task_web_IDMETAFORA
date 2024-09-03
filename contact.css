@@ -1,0 +1,206 @@
+/* Navbar */
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #071cff; /* Warna hover untuk link navbar */
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #343a40; /* Warna background dropdown */
+}
+
+.navbar-nav .dropdown-item {
+    color: #fff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057; /* Warna hover untuk item dropdown */
+}
+
+/* Header */
+header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Layer gelap di atas background image */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Tinggi header dikurangi menjadi 60% dari tinggi viewport */
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    padding-top: 10vh; /* Padding atas untuk menjaga jarak dari atas */
+    padding-bottom: 10vh; /* Padding bawah untuk menjaga jarak dari bawah */
+    text-align: left; /* Menyelaraskan teks ke kiri */
+    max-width: 600px; /* Membatasi lebar teks agar tidak terlalu panjang */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Ukuran font headline dikurangi */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p.lead {
+    font-size: 1.25rem; /* Ukuran font deskripsi dikurangi */
+    margin-bottom: 2rem;
+    color: white;
+}
+
+header .btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+}
+
+header .btn-warning {
+    background-color: #3A3030; /* Warna oranye cerah */
+    border-color: #d4cdcd;
+    color: #ffffff; /* Warna teks putih */
+}
+
+header .btn-warning:hover {
+    background-color: #e68a00; /* Warna oranye lebih gelap saat hover */
+    border-color: #e68a00;
+    color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header .container {
+        max-width: 100%;
+        padding-left: 20px; /* Menambah jarak kiri pada layar kecil */
+        padding-right: 20px; /* Menambah jarak kanan pada layar kecil */
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p.lead {
+        font-size: 1rem;
+    }
+
+    header .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #495057;
+}
+
+.text-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text-card .btn-block {
+    width: 100%;
+}
+
+/* tampilan untuk contact */
+.card-first {
+    height: auto; /* Mengatur tinggi card menjadi otomatis sesuai dengan konten */
+    min-height: 300px; /* Memberikan tinggi minimum agar card tetap memiliki ukuran yang baik */
+    padding: 15px;
+    text-align: justify;
+}
+
+.card-second {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-third {
+    height: auto; /* Mengatur tinggi card menjadi otomatis sesuai dengan konten */
+    min-height: 250px; /* Memberikan tinggi minimum agar card tetap memiliki ukuran yang baik */
+    padding: 15px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Pengaturan Bagian Klien */
+.clients img {
+    max-width: 100%;
+}
+
+.hidden-client {
+    display: none;
+}
+
+.footer {
+    background-image: url('Assets/premium_vector_hand_drawn_landscape_black_and_white.jpeg'); /* Ganti dengan URL gambar latar belakang */
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh elemen */
+    background-position: center; /* Memusatkan gambar latar belakang */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar latar belakang */
+    color: #fff; /* Warna teks footer untuk kontras dengan gambar latar belakang */
+    border-top: 1px solid #dee2e6; /* Garis atas footer */
+}
+
+.footer h5 {
+    font-size: 1.25rem; /* Ukuran font untuk subjudul footer */
+    font-weight: 600; /* Semi-bold untuk subjudul footer */
+    margin-bottom: 1rem; /* Jarak bawah subjudul footer */
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem; /* Jarak bawah item list */
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #f4f4f4; /* Warna tautan */
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; /* Garis bawah saat hover pada tautan */
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #fff; /* Warna ikon sosial media */
+}
+
+.social-icon:hover {
+    color: #ffc107; /* Warna ikon sosial media saat hover */
+}
